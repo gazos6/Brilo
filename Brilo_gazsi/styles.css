@@ -1,0 +1,124 @@
+		body{
+			background-color: rgba(69, 69, 69, 1);
+		}
+
+		.list{
+			list-style: none;
+			position: relative;
+			background-color: rgba(21, 119, 132, 1);
+			height: 100px;
+			padding-right: 150px;
+			padding-top: 50px;			
+		}
+
+		.list li {
+			float: right;
+			padding: 15px;
+			margin-right: 80px;
+			color: rgba(237, 237, 237, 1);
+			font-family: sans-serif;
+			font-size: 20px;
+			cursor: pointer;
+		}
+
+		.menu{
+			background-color: blueviolet;
+		}	
+
+		.sectionOne{	
+			width: auto;
+			height: 700px;
+			margin-top: 5%;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+		}
+
+		.sectionOne article{
+			margin: auto;
+			padding-right: 50px;
+			margin-left: 30%;
+		}
+
+		.sectionOne figure{
+			margin: auto;
+			margin-left: 40%;		
+		}
+
+		.article p, h2{
+			padding-left: 10px;
+			color: rgba(237, 237, 237, 1);
+			font-family: sans-serif;
+		}
+
+		.article h2{
+			text-transform: uppercase;
+			font-weight: normal;
+			font-size: 35px;
+		}
+
+		.article p{
+			font-size: 20px;
+		}
+
+		.button{
+			text-align: center;
+			text-decoration: none;
+			font-size: 16px;
+			border: none;
+			background-color: rgba(12, 176, 198, 1);
+			margin-top: 40px;
+			margin-left: 10px;
+			padding-right: 75px;
+			padding-left: 75px;
+			padding-top: 8px;
+			padding-bottom: 8px;
+			color: rgba(237, 237, 237, 1);
+			cursor: pointer;
+		}
+		
+		.sectionTwo{	
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(18rem, 2fr));
+			padding-left: 15%;		
+		}
+
+		.headerTwo{
+			color: rgba(237, 237, 237, 1);
+			font-family: sans-serif;
+			margin-right: auto;
+			margin-left: 15%;
+			margin-top: 200px;
+			text-transform: uppercase;
+			font-size: 20px;
+		}
+
+		.card{
+			background-color: rgba(12, 176, 198, 1);
+			margin-right: 15%;
+			margin-right: auto;
+			padding-bottom: 40px;	
+		}
+
+		.center{
+			display: block;
+			margin-left: auto;
+  			margin-right: auto;
+		}
+
+		.sectionTwo h3, p{
+			padding-left: 20px;
+			color: rgba(237, 237, 237, 1);
+			font-family: sans-serif;
+		}
+
+		.sectionTwo h3{
+			padding-top: 40px;
+			ext-transform: uppercase;
+			color: rgba(237, 237, 237, 1);
+			font-family: sans-serif;
+		}
+		
+		footer{
+			text-align: center;
+			margin-top: 300px;
+		}
